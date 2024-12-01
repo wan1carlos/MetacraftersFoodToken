@@ -1,41 +1,67 @@
-# Project Title
+# **FoodToken Smart Contract**
 
-Simple overview of use/purpose.
+A decentralized ERC20 token-based food redemption system built on Solidity. The `FoodToken` enables users to earn, burn, and redeem tokens for predefined food items, providing an innovative use case for tokenized assets.
 
-## Description
+---
 
-An in-depth paragraph about your project and overview of use.
+## **Description**
 
-## Getting Started
+The `FoodToken` is an ERC20 token with customized functionality for use in a gamified or tokenized food ecosystem. Users can mint tokens (admin only), burn tokens, and redeem them for food items. It includes predefined food items such as Pizza, Burger, Sushi, and Steak, each with associated costs in tokens. The contract leverages OpenZeppelin libraries for secure and efficient implementation.
 
-### Installing
+---
 
-* How/where to download your program
-* Any modifications needed to be made to files/folders
+## **Getting Started**
 
-### Executing program
+### **Prerequisites**
 
-* How to run the program
-* Step-by-step bullets
-```
-code blocks for commands
-```
+- Solidity compiler (Solc) version ^0.8.18
+- Node.js and npm for managing dependencies
+- Hardhat or Remix IDE for contract deployment
+- Avalanche-compatible wallet and node for deployment
 
-## Help
+### **Installing**
 
-Any advise for common problems or issues.
-```
-command to run if program contains helper info
-```
+1. Clone the repository and navigate to the project directory.  
+2. Install all necessary dependencies.  
+3. Configure the network for deployment.  
 
-## Authors
+---
 
-Contributors names and contact info
+## **Executing Program**
 
-ex. Dominique Pizzie  
-ex. [@DomPizzie](https://twitter.com/dompizzie)
+### **Deployment**
 
+1. Compile the smart contract.  
+2. Deploy the contract to your chosen blockchain network.  
+3. Optionally, verify the contract on a blockchain explorer.  
 
-## License
+### **Interacting with the Contract**
 
-This project is licensed under the [NAME HERE] License - see the LICENSE.md file for details
+1. Mint tokens (admin only).  
+2. Burn tokens from your wallet.  
+3. Redeem tokens for predefined food items.  
+4. View available food items and owned items.  
+
+---
+
+## **Help**
+
+For common issues:  
+- Ensure all dependencies are correctly installed.  
+- Verify network configurations.  
+- Check wallet balances before interaction.
+
+---
+
+## **Authors**
+
+- **Juan Carlos Francisco**  
+  [GitHub](https://github.com/wan1carlos)
+
+---
+
+## **License**
+
+This project is licensed under the MIT License. See the `LICENSE` file for details.
+
+---
